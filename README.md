@@ -9,26 +9,10 @@ Built with the tools and technologies:
 ![Markdown](https://img.shields.io/badge/-Markdown-blue) ![Python](https://img.shields.io/badge/-Python-blue)
 
 ## Overview
-<<<<<<< HEAD
-PhishNet is a project designed to help users identify and avoid phishing attempts. It provides tools and resources to enhance online security through URL analysis and phishing detection.
-
-## Features
-- 🔍 Real-time phishing detection
-- 🎯 Risk scoring system (Low, Medium, High)
-- 🎨 Visual risk indicators using emojis
-- 🔄 Typosquatting detection using fuzzy string matching
-- 📝 Optional logging of results to JSON file
-- 🎯 Detection of:
-  - Suspicious keywords
-  - IP addresses instead of domains
-  - URL shorteners
-  - Excessive subdomains
-=======
 PhishNet is a project designed to help users identify and avoid phishing attempts. It provides tools and resources to enhance online security.
 
 ## Features
 - Real-time phishing detection
->>>>>>> f8c14d8bf39368f04e6d9f9dc815fb44c3b7ed11
 - User-friendly interface
 - Educational resources on phishing awareness
 
@@ -36,12 +20,7 @@ PhishNet is a project designed to help users identify and avoid phishing attempt
 To install PhishNet, follow these steps:
 1. Clone the repository.
    ```bash
-<<<<<<< HEAD
-   git clone https://github.com/yourusername/phishnet.git
-   cd phishnet
-=======
    git clone https://github.com/toonscascade/PhishNet.git
->>>>>>> f8c14d8bf39368f04e6d9f9dc815fb44c3b7ed11
    ```
 2. Install the required dependencies.
    ```bash
@@ -49,71 +28,22 @@ To install PhishNet, follow these steps:
    ```
 3. Run the setup script.
    ```bash
-   python setup.py install
+   python phishnet.py install
    ```
 
 ## Usage
-<<<<<<< HEAD
-After installation, you can start PhishNet by running the main script:
-=======
 After installation, you can start PhishNet by running the main script. Follow the on-screen instructions to navigate through the application.
 
->>>>>>> f8c14d8bf39368f04e6d9f9dc815fb44c3b7ed11
 ```bash
-python main.py
+python phishnet.py
 ```
 
-<<<<<<< HEAD
-The tool will:
-1. Analyze URLs for potential phishing indicators
-2. Display a risk score and level
-3. Show detailed findings
-4. Optionally log results to a JSON file
-
-Example output:
-```
-==================================================
-PhishNet Analysis Results
-==================================================
-
-URL: https://example.com/login/verify
-Risk Level: 🟡 MEDIUM
-Risk Score: 35/100
-
-Findings:
-• Contains suspicious keyword: login
-• Contains suspicious keyword: verify
-
-==================================================
-```
-
-## How It Works
-
-PhishNet uses several techniques to detect potential phishing URLs:
-
-1. **Keyword Analysis**: Checks for common phishing-related keywords
-2. **Domain Analysis**: Identifies suspicious domain patterns
-3. **URL Structure**: Analyzes URL structure for red flags
-4. **Typosquatting Detection**: Uses fuzzy string matching to detect similar domains
-
-=======
->>>>>>> f8c14d8bf39368f04e6d9f9dc815fb44c3b7ed11
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
-<<<<<<< HEAD
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Disclaimer
-This tool is for educational purposes only. It should not be used as the sole method for determining if a URL is safe. Always use multiple security measures and common sense when dealing with suspicious links.
-
-## Thank You
-Thank you for checking out PhishNet! 
-=======
 This project is licensed under the MIT License - see the LICENSE file for details. 
 
 ## Thank You
 
 Thank you for checking out PhishNet! 
->>>>>>> f8c14d8bf39368f04e6d9f9dc815fb44c3b7ed11
