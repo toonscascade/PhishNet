@@ -1,0 +1,5 @@
+fuzzywuzzy==0.18.0
+rapidfuzz==3.13.0
+requests==2.31.0
+validators==0.22.0
+colorama==0.4.6 
