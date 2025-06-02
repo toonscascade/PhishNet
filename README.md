@@ -9,6 +9,7 @@ Built with the tools and technologies:
 ![Markdown](https://img.shields.io/badge/-Markdown-blue) ![Python](https://img.shields.io/badge/-Python-blue)
 
 ## Overview
+<<<<<<< HEAD
 PhishNet is a project designed to help users identify and avoid phishing attempts. It provides tools and resources to enhance online security through URL analysis and phishing detection.
 
 ## Features
@@ -22,6 +23,12 @@ PhishNet is a project designed to help users identify and avoid phishing attempt
   - IP addresses instead of domains
   - URL shorteners
   - Excessive subdomains
+=======
+PhishNet is a project designed to help users identify and avoid phishing attempts. It provides tools and resources to enhance online security.
+
+## Features
+- Real-time phishing detection
+>>>>>>> f8c14d8bf39368f04e6d9f9dc815fb44c3b7ed11
 - User-friendly interface
 - Educational resources on phishing awareness
 
@@ -29,8 +36,12 @@ PhishNet is a project designed to help users identify and avoid phishing attempt
 To install PhishNet, follow these steps:
 1. Clone the repository.
    ```bash
+<<<<<<< HEAD
    git clone https://github.com/yourusername/phishnet.git
    cd phishnet
+=======
+   git clone https://github.com/toonscascade/PhishNet.git
+>>>>>>> f8c14d8bf39368f04e6d9f9dc815fb44c3b7ed11
    ```
 2. Install the required dependencies.
    ```bash
@@ -42,11 +53,17 @@ To install PhishNet, follow these steps:
    ```
 
 ## Usage
+<<<<<<< HEAD
 After installation, you can start PhishNet by running the main script:
+=======
+After installation, you can start PhishNet by running the main script. Follow the on-screen instructions to navigate through the application.
+
+>>>>>>> f8c14d8bf39368f04e6d9f9dc815fb44c3b7ed11
 ```bash
 python main.py
 ```
 
+<<<<<<< HEAD
 The tool will:
 1. Analyze URLs for potential phishing indicators
 2. Display a risk score and level
@@ -79,10 +96,13 @@ PhishNet uses several techniques to detect potential phishing URLs:
 3. **URL Structure**: Analyzes URL structure for red flags
 4. **Typosquatting Detection**: Uses fuzzy string matching to detect similar domains
 
+=======
+>>>>>>> f8c14d8bf39368f04e6d9f9dc815fb44c3b7ed11
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
+<<<<<<< HEAD
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Disclaimer
@@ -90,3 +110,10 @@ This tool is for educational purposes only. It should not be used as the sole me
 
 ## Thank You
 Thank you for checking out PhishNet! 
+=======
+This project is licensed under the MIT License - see the LICENSE file for details. 
+
+## Thank You
+
+Thank you for checking out PhishNet! 
+>>>>>>> f8c14d8bf39368f04e6d9f9dc815fb44c3b7ed11
